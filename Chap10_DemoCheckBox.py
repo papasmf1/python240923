@@ -9,7 +9,7 @@ class DemoWindow(QMainWindow):
 
     def setupUI(self):
         #x축, y축, width, height를 모두 지정 
-        self.setGeometry(800, 200, 300, 300)
+        self.setGeometry(800, 500, 300, 300)
 
         #코드로 CheckBox위젯을 생성 
         self.checkBox1 = QCheckBox("아이폰", self)
